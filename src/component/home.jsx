@@ -35,7 +35,7 @@ export const HomePage = () => {
       };
 
     return (
-        <div className="h-[auto] w-[35vw] border-2 border-blue-700 mx-auto my-[100px] p-5 rounded-xl ">
+        <div className="h-[auto] w-[75vw] md:w-[35vw] border-2 border-blue-700 mx-auto my-[100px] p-5 rounded-xl ">
             <h1 className="text-[35px] font-semibold text-blue-500 text-center ">Link Shortner..</h1>
             <form className="w-[90%] mx-auto " onSubmit={handleGenerateURL}>
                 <input type="text" className="h-[auto] w-[90%] border border-blue-500 rounded px-2.5 py-2 text-lg font-semibold outline-blue-400 my-1 " name="longUrl" value={longUrl} onChange={(e) => setlongUrl(e.target.value)} placeholder="Enter your url" required /><br />

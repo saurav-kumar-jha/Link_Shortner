@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-     <HomePage/>
+     <HomePage/>     
+     <p className='text-center font-semibold '>© 2025 | Link-shortner | Build by SAURAV KUMAR JHA </p>
     </>
   )
 }
